@@ -151,6 +151,7 @@ export type FileExtension =
 	| 'cpio'
 	| 'ace'
 	| 'avro'
+	| 'dat'
 	; // eslint-disable-line semi-style
 
 export type MimeType =
@@ -298,6 +299,7 @@ export type MimeType =
 	| 'application/x-cpio'
 	| 'application/x-ace-compressed'
 	| 'application/avro'
+	| 'application/octet-stream'
 	; // eslint-disable-line semi-style
 
 export type FileTypeResult = {

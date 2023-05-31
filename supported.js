@@ -148,6 +148,7 @@ export const extensions = [
 	'cpio',
 	'ace',
 	'avro',
+	'dat',
 ];
 
 export const mimeTypes = [
@@ -295,4 +296,5 @@ export const mimeTypes = [
 	'application/x-cpio',
 	'application/x-ace-compressed',
 	'application/avro',
+	'application/octet-stream'
 ];
