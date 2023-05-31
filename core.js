@@ -249,7 +249,7 @@ class FileTypeParser {
 			};
 		}
 
-		if (this.check([0x72, 0x65, 0x67, 0x66])) {
+		if (this.check([0xB0, 0x00, 0x00, 0x00])) {
 			return {
 				ext: 'dat',
 				mime: 'application/octet-stream',

@@ -296,5 +296,5 @@ export const mimeTypes = [
 	'application/x-cpio',
 	'application/x-ace-compressed',
 	'application/avro',
-	'application/octet-stream'
+	'application/octet-stream',
 ];
